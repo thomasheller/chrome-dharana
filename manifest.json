@@ -1,0 +1,50 @@
+{
+  "manifest_version": 2,
+
+  "name": "Dharana",
+  "description": "Helps you staying focused by hiding distracting elements on specific websites",
+  "version": "0.1",
+
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+	"https://stackoverflow.com/*",
+	"https://*.stackexchange.com/*",
+	"https://askubuntu.com/*",
+	"https://superuser.com/*",
+	"https://serverfault.com/*",
+	"https://mathoverflow.net/*",
+	"https://stackapps.com/*",
+	"https://seasonedadvice.com/*",
+	"http://stackoverflow.com/*",
+	"http://*.stackexchange.com/*",
+	"http://askubuntu.com/*",
+	"http://superuser.com/*",
+	"http://serverfault.com/*",
+	"http://mathoverflow.net/*",
+	"http://stackapps.com/*",
+	"http://seasonedadvice.com/*"
+      ],
+      "js": ["jquery.min.js", "stackexchange.js"]
+    },
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["jquery.min.js", "youtube.js"]
+    }
+  ],
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
