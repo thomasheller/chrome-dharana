@@ -29,7 +29,7 @@
 	"http://serverfault.com/*",
 	"http://mathoverflow.net/*",
 	"http://stackapps.com/*",
-	"http://seasonedadvice.com/*"
+	"http://seasonedadvice.com/*",
 	"http://meta.stackexchange.com/*"
       ],
       "js": ["jquery.min.js", "stackexchange.js"]
