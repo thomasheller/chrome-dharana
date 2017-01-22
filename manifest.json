@@ -3,7 +3,7 @@
 
   "name": "Dharana",
   "description": "Helps you staying focused by hiding distracting elements on specific websites",
-  "version": "0.1",
+  "version": "0.1.1",
 
   "icons": {
     "16": "icon16.png",
@@ -30,6 +30,7 @@
 	"http://mathoverflow.net/*",
 	"http://stackapps.com/*",
 	"http://seasonedadvice.com/*"
+	"http://meta.stackexchange.com/*"
       ],
       "js": ["jquery.min.js", "stackexchange.js"]
     },
