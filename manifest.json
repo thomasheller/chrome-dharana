@@ -22,6 +22,7 @@
 	"https://mathoverflow.net/*",
 	"https://stackapps.com/*",
 	"https://seasonedadvice.com/*",
+	"https://meta.stackoverflow.com/*",
 	"https://meta.stackexchange.com/*",
 	"http://stackoverflow.com/*",
 	"http://*.stackexchange.com/*",
@@ -31,6 +32,7 @@
 	"http://mathoverflow.net/*",
 	"http://stackapps.com/*",
 	"http://seasonedadvice.com/*",
+	"http://meta.stackoverflow.com/*",
 	"http://meta.stackexchange.com/*"
       ],
       "js": ["jquery.min.js", "stackexchange.js"]
